@@ -1,0 +1,19 @@
+{
+  "type": "wtbw_decoration:polished_granite_brick",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wtbw_decoration:polished_granite_brick"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

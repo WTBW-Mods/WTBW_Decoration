@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone_lamp",
+    "wtbw_decoration:blue_redstone_lamp",
+    "wtbw_decoration:brown_redstone_lamp",
+    "wtbw_decoration:cyan_redstone_lamp",
+    "wtbw_decoration:gray_redstone_lamp",
+    "wtbw_decoration:green_redstone_lamp",
+    "wtbw_decoration:lime_redstone_lamp",
+    "wtbw_decoration:light_blue_redstone_lamp",
+    "wtbw_decoration:light_gray_redstone_lamp",
+    "wtbw_decoration:magenta_redstone_lamp",
+    "wtbw_decoration:orange_redstone_lamp",
+    "wtbw_decoration:pink_redstone_lamp",
+    "wtbw_decoration:purple_redstone_lamp",
+    "wtbw_decoration:red_redstone_lamp",
+    "wtbw_decoration:white_redstone_lamp",
+    "wtbw_decoration:yellow_redstone_lamp"
+  ]
+}

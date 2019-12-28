@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "wtbw_decoration:block/fancy/lava_stone_brick",
+        "top": "wtbw_decoration:block/fancy/lava_stone_brick",
+        "side": "wtbw_decoration:block/fancy/lava_stone_brick"
+    }
+}

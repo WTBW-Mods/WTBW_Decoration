@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "wtbw_decoration:block/fancy/water_stone_brick"
+    }
+}

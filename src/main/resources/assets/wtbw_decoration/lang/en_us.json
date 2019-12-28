@@ -1,0 +1,39 @@
+{
+  "itemGroup.wtbw_decoration": "What the B wants - Deco",
+  "block.wtbw_decoration.lava_stone_brick": "Lava Stone Brick",
+  "block.wtbw_decoration.lava_stone_brick_wall": "Lava Stone Brick Wall",
+  "block.wtbw_decoration.lava_stone_brick_stairs": "Lava Stone Brick Stairs",
+  "block.wtbw_decoration.lava_stone_brick_slab": "Lava Stone Brick Slab",
+
+  "block.wtbw_decoration.lava_chiseled_stone_brick": "Lava Chisel Stone Brick",
+
+  "block.wtbw_decoration.water_stone_brick": "Water Stone Brick",
+  "block.wtbw_decoration.water_stone_brick_slab": "Water Stone Brick Slab",
+  "block.wtbw_decoration.water_stone_brick_stairs": "Water Stone Brick Stairs",
+  "block.wtbw_decoration.water_stone_brick_wall": "Water Stone Brick Wall",
+
+  "block.wtbw_decoration.water_chiseled_stone_brick": "Water Chisel Stone Brick",
+
+  "block.wtbw_decoration.water_glass": "Water Glass",
+  "block.wtbw_decoration.lava_glass": "Lava Glass",
+
+  "block.wtbw_decoration.polished_andesite_brick": "Polished Andesite Brick",
+  "block.wtbw_decoration.polished_diorite_brick": "Polished Diorite Brick",
+  "block.wtbw_decoration.polished_granite_brick": "Polished Granite Brick",
+
+  "block.wtbw_decoration.light_gray_redstone_lamp": "Light Gray Redstone Lamp",
+  "block.wtbw_decoration.light_blue_redstone_lamp": "Light Blue Redstone Lamp",
+  "block.wtbw_decoration.blue_redstone_lamp": "Blue Redstone Lamp",
+  "block.wtbw_decoration.brown_redstone_lamp": "Brown Redstone Lamp",
+  "block.wtbw_decoration.cyan_redstone_lamp": "Cyan Redstone Lamp",
+  "block.wtbw_decoration.gray_redstone_lamp": "Gray Redstone Lamp",
+  "block.wtbw_decoration.green_redstone_lamp": "Green Redstone Lamp",
+  "block.wtbw_decoration.lime_redstone_lamp": "Lime Redstone Lamp",
+  "block.wtbw_decoration.magenta_redstone_lamp": "Magenta Redstone Lamp",
+  "block.wtbw_decoration.orange_redstone_lamp": "Orange Redstone Lamp",
+  "block.wtbw_decoration.pink_redstone_lamp": "Pink Redstone Lamp",
+  "block.wtbw_decoration.purple_redstone_lamp": "Purple Redstone Lamp",
+  "block.wtbw_decoration.red_redstone_lamp": "Red Redstone Lamp",
+  "block.wtbw_decoration.white_redstone_lamp": "White Redstone Lamp",
+  "block.wtbw_decoration.yellow_redstone_lamp": "Yellow Redstone Lamp"
+}

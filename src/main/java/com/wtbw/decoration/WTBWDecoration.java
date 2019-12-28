@@ -1,5 +1,9 @@
 package com.wtbw.decoration;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,13 +21,22 @@ import org.apache.logging.log4j.Logger;
 public class WTBWDecoration
 {
     public static final String MODID = "wtbw_decoration";
-
+    private Registrator registrator;
     public static final Logger LOGGER = LogManager.getLogger(MODID);
+    public static ItemGroup GROUP = new ItemGroup(MODID)
+    {
+        @Override
+        public ItemStack createIcon()
+        {
+            return new ItemStack(Blocks.DIAMOND_BLOCK);
+        }
+    };
+
 
     public WTBWDecoration() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //eventBus.addListener();
+        registrator = new Registrator(GROUP, MODID);
 
         IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
 
