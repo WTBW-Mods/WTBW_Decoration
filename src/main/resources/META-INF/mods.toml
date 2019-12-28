@@ -27,3 +27,9 @@ Adds new decorative blocks
     versionRange="[1.15.1,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.wtbw_decoration]]
+    modId="wtbw_lib"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"
