@@ -1,5 +1,6 @@
 package com.wtbw.decoration;
 
+import com.wtbw.decoration.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -28,7 +29,7 @@ public class WTBWDecoration
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(Blocks.DIAMOND_BLOCK);
+            return new ItemStack(ModBlocks.LAVA_STONE_BRICK);
         }
     };
 
