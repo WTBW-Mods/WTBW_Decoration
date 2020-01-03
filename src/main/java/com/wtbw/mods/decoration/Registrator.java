@@ -1,8 +1,8 @@
-package com.wtbw.mods.tools.mods.decoration;
+package com.wtbw.mods.decoration;
 
-import com.wtbw.mods.tools.mods.decoration.block.LavaBlock;
-import com.wtbw.mods.tools.mods.decoration.block.ModBlocks;
-import com.wtbw.mods.tools.mods.decoration.block.WaterBlock;
+import com.wtbw.mods.decoration.block.LavaBlock;
+import com.wtbw.mods.decoration.block.ModBlocks;
+import com.wtbw.mods.decoration.block.WaterBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.*;

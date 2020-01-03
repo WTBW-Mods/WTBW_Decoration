@@ -1,4 +1,4 @@
-package com.wtbw.mods.tools.mods.decoration.block;
+package com.wtbw.mods.decoration.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
