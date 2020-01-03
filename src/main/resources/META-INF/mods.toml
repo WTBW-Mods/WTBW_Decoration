@@ -33,3 +33,9 @@ Adds new decorative blocks
     versionRange="[1.0.0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.wtbw_decoration]]
+    modId="wtbw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"
