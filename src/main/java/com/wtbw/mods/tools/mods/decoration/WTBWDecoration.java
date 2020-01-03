@@ -1,8 +1,6 @@
-package com.wtbw.decoration;
+package com.wtbw.mods.tools.mods.decoration;
 
-import com.wtbw.decoration.block.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import com.wtbw.mods.tools.mods.decoration.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,36 +1,16 @@
-package com.wtbw.decoration;
+package com.wtbw.mods.tools.mods.decoration;
 
-import com.wtbw.decoration.block.LavaBlock;
-import com.wtbw.decoration.block.ModBlocks;
-import com.wtbw.decoration.block.WaterBlock;
+import com.wtbw.mods.tools.mods.decoration.block.LavaBlock;
+import com.wtbw.mods.tools.mods.decoration.block.ModBlocks;
+import com.wtbw.mods.tools.mods.decoration.block.WaterBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.*;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.TileEntityType;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.world.World;
-import net.minecraftforge.common.extensions.IForgeContainerType;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.IForgeRegistry;
-
-import javax.annotation.Nullable;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Supplier;
 
 /*
   @author: Sunekaer
 */
-public class Registrator extends com.wtbw.lib.Registrator {
+public class Registrator extends com.wtbw.mods.lib.Registrator {
     public Registrator(ItemGroup group, String modid)
     {
         super(group, modid);

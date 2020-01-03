@@ -1,4 +1,4 @@
-package com.wtbw.decoration.block;
+package com.wtbw.mods.tools.mods.decoration.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -16,25 +16,19 @@ import javax.annotation.Nullable;
 /*
   @author: Sunekaer
 */
-public class WaterBlock extends Block
+public class LavaBlock extends Block
 {
-    public WaterBlock(Block.Properties properties)
+    public LavaBlock(Block.Properties properties)
     {
         super(properties);
     }
 
-    public void harvestBlock(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack)
+    public void harvestBlock(World worldIn, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack)
     {
-        super.harvestBlock(world, player, pos, state, te, stack);
+        super.harvestBlock(worldIn, player, pos, state, te, stack);
         if (EnchantmentHelper.getEnchantmentLevel(Enchantments.SILK_TOUCH, stack) == 0)
         {
-            if (world.dimension.doesWaterVaporize())
-            {
-                world.removeBlock(pos, false);
-                return;
-            }
-
-            world.setBlockState(pos, Blocks.WATER.getDefaultState());
+            worldIn.setBlockState(pos, Blocks.LAVA.getDefaultState());
         }
     }
 }

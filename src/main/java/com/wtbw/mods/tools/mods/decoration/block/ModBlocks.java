@@ -1,6 +1,6 @@
-package com.wtbw.decoration.block;
+package com.wtbw.mods.tools.mods.decoration.block;
 
-import com.wtbw.decoration.WTBWDecoration;
+import com.wtbw.mods.tools.mods.decoration.WTBWDecoration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.registries.ObjectHolder;
