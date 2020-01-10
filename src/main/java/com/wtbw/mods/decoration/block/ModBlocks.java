@@ -9,7 +9,8 @@ import net.minecraftforge.registries.ObjectHolder;
   @author: Sunekaer
 */
 @ObjectHolder(WTBWDecoration.MODID)
-public class ModBlocks {
-    public static final Block LAVA_STONE_BRICK = Blocks.AIR;
-    public static final Block WATER_STONE_BRICK = Blocks.AIR;
+public class ModBlocks
+{
+  public static final Block LAVA_STONE_BRICK = Blocks.AIR;
+  public static final Block WATER_STONE_BRICK = Blocks.AIR;
 }
