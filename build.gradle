@@ -139,7 +139,7 @@ if (ENV.WTBW_CF_KEY) {
     curseforge {
         apiKey = ENV.WTBW_CF_KEY
         project {
-            id = "wtbw_decoration"
+            id = "wtbw_deco"
             releaseType = "beta"
             addGameVersion "1.15.1"
             relations {
