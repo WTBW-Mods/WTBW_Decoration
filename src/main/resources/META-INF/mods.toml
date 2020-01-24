@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[30,)"
+loaderVersion="[31,)"
 
 #issueTrackerURL="http://my.issue.tracker/" #optional
 
@@ -18,13 +18,13 @@ Adds new decorative blocks
 [[dependencies.wtbw_decoration]]
     modId="forge"
     mandatory=true
-    versionRange="[30.0.30,)"
+    versionRange="[31.0.0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.wtbw_decoration]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.1,)"
+    versionRange="[1.15.2,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.wtbw_decoration]]
