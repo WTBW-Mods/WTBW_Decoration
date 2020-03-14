@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "wtbw_decoration:smooth_marble_brick"
+    }
+  },
+  "result": {
+    "item": "wtbw_decoration:smooth_marble_small_brick",
+    "count": 4
+  }
+}

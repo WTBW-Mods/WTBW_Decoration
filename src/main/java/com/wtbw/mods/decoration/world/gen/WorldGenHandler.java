@@ -39,14 +39,14 @@ public class WorldGenHandler
       }
       if (DecorationCommonConfig.BASALT.isStoneEnabled())
       {
-        if (isBiomeValid(biome, true))
+        if (isBiomeValid(biome, false))
         {
           addFeature(biome, basaltFeature);
         }
       }
       if (DecorationCommonConfig.LIMESTONE.isStoneEnabled())
       {
-        if (isBiomeValid(biome, true))
+        if (isBiomeValid(biome, false))
         {
           addFeature(biome, limestoneFeature);
         }
@@ -85,7 +85,7 @@ public class WorldGenHandler
   {
     if (feature != null)
     {
-      biome.addFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, feature);
+      biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, feature);
     }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wtbw_decoration:basalt_block"
+  },
+  "result": "wtbw_decoration:smooth_basalt_block",
+  "experience": 0.8,
+  "cookingtime": 100
+}

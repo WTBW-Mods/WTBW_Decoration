@@ -35,5 +35,27 @@
   "block.wtbw_decoration.purple_redstone_lamp": "Purple Redstone Lamp",
   "block.wtbw_decoration.red_redstone_lamp": "Red Redstone Lamp",
   "block.wtbw_decoration.white_redstone_lamp": "White Redstone Lamp",
-  "block.wtbw_decoration.yellow_redstone_lamp": "Yellow Redstone Lamp"
+  "block.wtbw_decoration.yellow_redstone_lamp": "Yellow Redstone Lamp",
+
+  "block.wtbw_decoration.basalt_block": "Basalt",
+  "block.wtbw_decoration.smooth_basalt_block": "Smooth Basalt",
+  "block.wtbw_decoration.smooth_basalt_small_brick":"Smooth Basalt Small Brick",
+  "block.wtbw_decoration.smooth_basalt_brick": "Smooth Basalt Brick",
+  "block.wtbw_decoration.smooth_basalt_brick_slab": "Smooth Basalt Brick Slab",
+  "block.wtbw_decoration.chiseled_smooth_basalt_block":"Chiseled Smooth Basalt",
+
+  "block.wtbw_decoration.marble_block": "Marble",
+  "block.wtbw_decoration.smooth_marble_block": "Smooth Marble",
+  "block.wtbw_decoration.smooth_marble_small_brick":"Smooth Marble Small Brick",
+  "block.wtbw_decoration.smooth_marble_brick": "Smooth Marble Brick",
+  "block.wtbw_decoration.smooth_marble_brick_slab": "Smooth Marble Brick Slab",
+  "block.wtbw_decoration.chiseled_smooth_marble_block":"Chiseled Smooth Marble",
+
+  "block.wtbw_decoration.limestone_block": "Limestone",
+  "block.wtbw_decoration.smooth_limestone_block": "Smooth Limestone",
+  "block.wtbw_decoration.smooth_limestone_small_brick":"Smooth Limestone Small Brick",
+  "block.wtbw_decoration.smooth_limestone_brick": "Smooth Limestone Brick",
+  "block.wtbw_decoration.smooth_limestone_brick_slab": "Smooth Limestone Brick Slab",
+  "block.wtbw_decoration.chiseled_smooth_limestone_block":"Chiseled Smooth Limestone"
+
 }

@@ -1,8 +1,8 @@
 package com.wtbw.mods.decoration;
 
-import com.wtbw.mods.core.world.gen.WorldGenHandler;
 import com.wtbw.mods.decoration.block.ModBlocks;
 import com.wtbw.mods.decoration.config.DecorationCommonConfig;
+import com.wtbw.mods.decoration.world.gen.WorldGenHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;

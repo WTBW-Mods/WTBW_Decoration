@@ -27,17 +27,20 @@ public class Registrator extends com.wtbw.mods.lib.Registrator {
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_block");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_brick");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_small_brick");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "chiseled_smooth_basalt_block");
 
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "limestone_block");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_block");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_brick");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_small_brick");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "chiseled_smooth_limestone_block");
 
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "marble_block");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_block");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_brick");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_small_brick");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "chiseled_smooth_marble_block");
 

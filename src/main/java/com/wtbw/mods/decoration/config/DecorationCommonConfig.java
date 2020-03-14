@@ -40,9 +40,9 @@ public class DecorationCommonConfig extends BaseConfig
     instance = this;
     
     push("stoneGen");
-    MARBLE = new StoneConfig("marble", StoneConfig.marble_provider, 12, 12, 12, 64);
-    BASALT = new StoneConfig("basalt", StoneConfig.basalt_provider, 12, 12, 12, 64);
-    LIMESTONE = new StoneConfig("limestone", StoneConfig.limestone_provider, 12, 12, 12, 64);
+    MARBLE = new StoneConfig("marble", StoneConfig.marble_provider, 20, 6, 20, 80);
+    BASALT = new StoneConfig("basalt", StoneConfig.basalt_provider, 20, 6, 15, 50);
+    LIMESTONE = new StoneConfig("limestone", StoneConfig.limestone_provider, 20, 6, 20, 80);
     pop();
   }
   

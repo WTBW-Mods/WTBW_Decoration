@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "wtbw_decoration:smooth_basalt_brick"
+    }
+  },
+  "result": {
+    "item": "wtbw_decoration:smooth_basalt_brick_slab",
+    "count": 6
+  }
+}
