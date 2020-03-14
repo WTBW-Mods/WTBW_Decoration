@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wtbw_decoration:block/marble/chiseled_smooth_marble_block"
+  }
+}
+

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wtbw_decoration:block/limestone/smooth_limestone_small_brick"
+  }
+}
+

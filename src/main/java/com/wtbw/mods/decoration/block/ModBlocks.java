@@ -13,4 +13,8 @@ public class ModBlocks
 {
   public static final Block LAVA_STONE_BRICK = Blocks.AIR;
   public static final Block WATER_STONE_BRICK = Blocks.AIR;
+  public static final Block MARBLE_BLOCK = Blocks.AIR;
+  public static final Block BASALT_BLOCK = Blocks.AIR;
+  public static final Block LIMESTONE_BLOCK = Blocks.AIR;
+
 }
