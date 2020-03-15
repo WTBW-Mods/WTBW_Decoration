@@ -5,11 +5,11 @@
   ],
   "key": {
     "S": {
-      "item": "wtbw_decoration:smooth_basalt_brick_slab"
+      "item": "wtbw_decoration:limestone_slab"
     }
   },
   "result": {
-    "item": "wtbw_decoration:smooth_basalt_brick",
+    "item": "wtbw_decoration:limestone_block",
     "count": 1
   }
 }

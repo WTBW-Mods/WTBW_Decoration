@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wtbw_decoration:block/limestone/limestone_block",
+        "top": "wtbw_decoration:block/limestone/limestone_block",
+        "side": "wtbw_decoration:block/limestone/limestone_block"
+    }
+}
