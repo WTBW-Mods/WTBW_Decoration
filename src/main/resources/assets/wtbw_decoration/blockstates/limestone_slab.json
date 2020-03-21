@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "wtbw_decoration:block/limestone_slab" },
+        "type=top": { "model": "wtbw_decoration:block/limestone_slab_top" },
+        "type=double": { "model": "wtbw_decoration:block/limestone_block"}
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "wtbw_decoration:smooth_basalt_brick",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wtbw_decoration:smooth_basalt_brick"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

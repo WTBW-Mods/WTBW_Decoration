@@ -23,26 +23,42 @@ public class Registrator extends com.wtbw.mods.lib.Registrator {
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "polished_diorite_brick");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "polished_granite_brick");
 
+
+        //BASALT
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "basalt_block");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "basalt_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_block");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_brick");
-        register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_small_brick");
         register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_brick_slab");
+        register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_small_brick");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_basalt_small_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "chiseled_smooth_basalt_block");
 
+
+        //LIMESTONE
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "limestone_block");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "limestone_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_block");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_brick");
         register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_small_brick");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_limestone_small_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "chiseled_smooth_limestone_block");
 
+
+        //MARBLE
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "marble_block");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "marble_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_block");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_brick");
         register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_small_brick");
+        register(new SlabBlock(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "smooth_marble_small_brick_slab");
         register(new Block(getBlockProperties(Material.ROCK,1.5F, 6.0F)), "chiseled_smooth_marble_block");
+
 
         // COLORED REDSTONE LAMPS
         register(new RedstoneLampBlock(getBlockProperties(Material.REDSTONE_LIGHT, 0.3F).lightValue(15).sound(SoundType.GLASS)), "blue_redstone_lamp");

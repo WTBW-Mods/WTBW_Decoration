@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "wtbw_decoration:smooth_limestone_block"
+    }
+  },
+  "result": {
+    "item": "wtbw_decoration:smooth_limestone_slab",
+    "count": 6
+  }
+}
