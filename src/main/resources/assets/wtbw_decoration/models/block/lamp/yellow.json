@@ -1,0 +1,6 @@
+{
+	"parent": "wtbw_decoration:block/lamp/base",
+	"textures": {
+		"all": "wtbw_decoration:block/lamp/yellow"
+	}
+}
