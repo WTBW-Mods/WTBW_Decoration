@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wtbw_decoration:basalt_block",
+    "wtbw_decoration:smooth_basalt_block",
+    "wtbw_decoration:smooth_basalt_small_brick",
+    "wtbw_decoration:smooth_basalt_brick",
+    "wtbw_decoration:chiseled_smooth_basalt_block"
+  ]
+}
