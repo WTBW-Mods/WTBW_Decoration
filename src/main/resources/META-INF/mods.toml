@@ -18,13 +18,13 @@ Adds new decorative blocks
 [[dependencies.wtbw_decoration]]
     modId="forge"
     mandatory=true
-    versionRange="[31.1.25,)"
+    versionRange="[32.0.23,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.wtbw_decoration]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2,)"
+    versionRange="[1.16,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.wtbw_decoration]]

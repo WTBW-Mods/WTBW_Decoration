@@ -14,27 +14,28 @@ import net.minecraft.world.World;
 import javax.annotation.Nullable;
 
 /*
-  @author: Sunekaer
+  @author: Naxanria, Sunekaer
 */
 public class WaterBlock extends Block
 {
-    public WaterBlock(Block.Properties properties)
+  public WaterBlock(Block.Properties properties)
+  {
+    super(properties);
+  }
+  
+  public void harvestBlock(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack)
+  {
+    super.harvestBlock(world, player, pos, state, te, stack);
+    if (EnchantmentHelper.getEnchantmentLevel(Enchantments.SILK_TOUCH, stack) == 0)
     {
-        super(properties);
+      // does water evaporate
+      if (world.func_230315_m_().func_236040_e_())
+      {
+        world.removeBlock(pos, false);
+        return;
+      }
+      
+      world.setBlockState(pos, Blocks.WATER.getDefaultState());
     }
-
-    public void harvestBlock(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack)
-    {
-        super.harvestBlock(world, player, pos, state, te, stack);
-        if (EnchantmentHelper.getEnchantmentLevel(Enchantments.SILK_TOUCH, stack) == 0)
-        {
-            if (world.dimension.doesWaterVaporize())
-            {
-                world.removeBlock(pos, false);
-                return;
-            }
-
-            world.setBlockState(pos, Blocks.WATER.getDefaultState());
-        }
-    }
+  }
 }
