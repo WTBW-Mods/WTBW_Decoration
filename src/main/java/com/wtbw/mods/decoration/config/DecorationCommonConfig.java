@@ -48,9 +48,9 @@ public class DecorationCommonConfig extends BaseConfig
   
   public static class StoneConfig
   {
-    static final OreBlockProvider marble_provider = new OreBlockProvider(() -> ModBlocks.MARBLE_BLOCK, OreFeatureConfig.FillerBlockType.NATURAL_STONE);
-    static final OreBlockProvider basalt_provider = new OreBlockProvider(() -> ModBlocks.BASALT_BLOCK, OreFeatureConfig.FillerBlockType.NATURAL_STONE);
-    static final OreBlockProvider limestone_provider = new OreBlockProvider(() -> ModBlocks.LIMESTONE_BLOCK, OreFeatureConfig.FillerBlockType.NATURAL_STONE);
+    static final OreBlockProvider marble_provider = new OreBlockProvider(() -> ModBlocks.MARBLE_BLOCK, OreFeatureConfig.FillerBlockType.field_241882_a);
+    static final OreBlockProvider basalt_provider = new OreBlockProvider(() -> ModBlocks.BASALT_BLOCK, OreFeatureConfig.FillerBlockType.field_241882_a);
+    static final OreBlockProvider limestone_provider = new OreBlockProvider(() -> ModBlocks.LIMESTONE_BLOCK, OreFeatureConfig.FillerBlockType.field_241882_a);
 
     private final OreBlockProvider provider;
     
